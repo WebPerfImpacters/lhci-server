@@ -1,3 +1,3 @@
-# LHCI Server demo
+# LHCI Server - SEOnthebeach 2022
 
-Lighthouse CI Server demo.
+This project shows how to use GitHub Actions and Lighthouse CI for web performance testing.
