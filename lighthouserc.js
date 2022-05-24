@@ -1,5 +1,8 @@
 module.exports = {
   ci: {
+    collect: {
+      startServerCommand: "npm start",
+    },
     assert: {
       assertions: {
         "categories:performance": ["warn", { minScore: 0.8 }],
