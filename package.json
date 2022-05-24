@@ -1,0 +1,33 @@
+{
+  "name": "lhci-server",
+  "private": true,
+  "version": "0.1.0",
+  "description": "WebPerfImpacters Lighthouse CI Server demo",
+  "scripts": {
+    "start": "serve src",
+    "test": "lhci autorun"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webperfimpacters/lhci-server.git"
+  },
+  "keywords": [
+    "lighthouse",
+    "lighthouseci",
+    "webperf",
+    "performance",
+    "webperfimpacter",
+    "WebPerformanceTesting",
+    "webperftest"
+  ],
+  "author": "Estela Franco <estela.francoc@gmail.com> (https://estelafranco.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webperfimpacters/lhci-server/issues"
+  },
+  "homepage": "https://github.com/webperfimpacters/lhci-server#readme",
+  "devDependencies": {
+    "@lhci/cli": "0.9.0",
+    "serve": "13.0.2"
+  }
+}
