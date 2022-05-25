@@ -19,7 +19,6 @@ jobs:
             http://localhost:3000/about/
             http://localhost:3000/blog/
           configPath: './lighthouserc.js'
-          budgetPath: '.github/lighthouse/budget.json'
           serverBaseUrl: ${{ secrets.LHCI_SERVER_URL }}
           serverToken: ${{ secrets.LHCI_TOKEN }}
           uploadArtifacts: true
